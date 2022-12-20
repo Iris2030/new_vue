@@ -1,0 +1,14 @@
+
+@import './reset';
+
+* {
+    box-sizing: border-box;
+
+    &::after{
+        box-sizing: inherit;
+    }
+
+    &::before{
+        box-sizing: inherit;
+    } 
+}
